@@ -1,0 +1,26 @@
+
+{
+  "name": "mtrand-node",
+  "preferGlobal": true,
+  "version": "0.0.1",
+  "author": "Steven Behnke <steven_behnke@me.com>",
+  "description": "A node module to expose a C++ implementation of the Mersenne Twister Random Number Generator",
+  "bin": {
+    "mtrand": "./Build/Release/mtrand"
+  },
+  "main": "./Build/Release/mtrand",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sbehnke/mtrand-node.git"
+  },
+  "keywords": [
+    "rng",
+    "c++",
+    "mersenne-twister"
+  ],
+  "analyze": false,  
+  "license": "MIT",
+  "engines": {
+    "node": "*"
+  }
+}
